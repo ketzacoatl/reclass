@@ -83,7 +83,7 @@ def cli():
 
         print output(data, options.output, options.pretty_print)
 
-    except ReclassException, e:
+    except ReclassException as e:
         e.exit_with_message(sys.stderr)
 
     sys.exit(posix.EX_OK)
