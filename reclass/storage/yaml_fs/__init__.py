@@ -97,4 +97,4 @@ class ExternalNodeStorage(NodeStorageBase):
         return entity
 
     def enumerate_nodes(self):
-        return self._nodes.keys()
+        return list(self._nodes.keys())
