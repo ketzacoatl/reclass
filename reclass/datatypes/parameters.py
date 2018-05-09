@@ -6,6 +6,7 @@
 # Copyright © 2007–14 martin f. krafft <madduck@madduck.net>
 # Released under the terms of the Artistic Licence 2.0
 #
+from builtins import range
 from builtins import object
 import types
 from reclass.defaults import PARAMETER_INTERPOLATION_DELIMITER,\
@@ -117,7 +118,7 @@ class Parameters(object):
             ret = [cur]
             offset = 1
 
-        for i in xrange(len(new)):
+        for i in range(len(new)):
             ret.append(self._merge_recurse(None, new[i], path.new_subpath(offset + i)))
         return ret
 
