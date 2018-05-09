@@ -9,8 +9,8 @@
 import os, sys
 import fnmatch
 from reclass.storage import NodeStorageBase
-from yamlfile import YamlFile
-from directory import Directory
+from .yamlfile import YamlFile
+from .directory import Directory
 from reclass.datatypes import Entity
 import reclass.errors
 
