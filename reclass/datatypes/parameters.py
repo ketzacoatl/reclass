@@ -80,7 +80,7 @@ class Parameters(object):
             # will be added again further on
             del self._occurrences[path]
 
-        if self.delimiter is None or not isinstance(new, (types.StringTypes,
+        if self.delimiter is None or not isinstance(new, (str,
                                                           RefValue)):
             # either there is no delimiter defined (and hence no references
             # are being used), or the new value is not a string (and hence
