@@ -31,7 +31,7 @@ class Directory(object):
         self._files = {}
 
     def _register_files(self, dirpath, filenames):
-        for f in filter(lambda f: f.endswith(FILE_EXTENSION), filenames):
+        for f in [f for f in filenames if f.endswith(FILE_EXTENSION)]:
             vvv('REGISTER {0}'.format(f))
             f = os.path.join(dirpath, f)
             ptr = None if not self._fileclass else self._fileclass(f)
