@@ -7,6 +7,7 @@
 # Released under the terms of the Artistic Licence 2.0
 #
 
+from builtins import object
 class _Constant(object):
 
     def __init__(self, displayname):

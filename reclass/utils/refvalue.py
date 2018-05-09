@@ -7,6 +7,9 @@
 # Released under the terms of the Artistic Licence 2.0
 #
 
+from builtins import str
+from builtins import range
+from builtins import object
 import re
 
 from reclass.utils.dictpath import DictPath

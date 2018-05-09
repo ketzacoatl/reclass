@@ -6,6 +6,7 @@
 # Copyright © 2007–14 martin f. krafft <madduck@madduck.net>
 # Released under the terms of the Artistic Licence 2.0
 #
+from builtins import object
 import types
 from reclass.defaults import PARAMETER_INTERPOLATION_DELIMITER,\
                              PARAMETER_DICT_KEY_OVERRIDE_PREFIX

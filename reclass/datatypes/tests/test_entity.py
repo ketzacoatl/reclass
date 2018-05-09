@@ -6,6 +6,7 @@
 # Copyright © 2007–14 martin f. krafft <madduck@madduck.net>
 # Released under the terms of the Artistic Licence 2.0
 #
+from builtins import zip
 from reclass.datatypes import Entity, Classes, Parameters, Applications
 import unittest
 try:

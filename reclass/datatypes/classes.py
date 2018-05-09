@@ -7,6 +7,7 @@
 # Released under the terms of the Artistic Licence 2.0
 #
 
+from builtins import object
 import types
 import os
 from reclass.errors import InvalidClassnameError

@@ -7,6 +7,8 @@
 # Released under the terms of the Artistic Licence 2.0
 #
 
+from builtins import str
+from builtins import object
 import types, re
 
 class DictPath(object):
