@@ -6,6 +6,9 @@
 # Copyright © 2007–14 martin f. krafft <madduck@madduck.net>
 # Released under the terms of the Artistic Licence 2.0
 #
+
+from __future__ import unicode_literals
+
 RECLASS_NAME = 'reclass'
 DESCRIPTION = 'merge data by recursive descent down an ancestry hierarchy'
 VERSION = '1.4.1'

@@ -7,6 +7,7 @@
 # Released under the terms of the Artistic Licence 2.0
 #
 
+from __future__ import unicode_literals
 import unittest
 tests = unittest.TestLoader().discover('reclass')
 unittest.TextTestRunner(verbosity=1).run(tests)

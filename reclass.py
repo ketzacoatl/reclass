@@ -7,5 +7,6 @@
 # Released under the terms of the Artistic Licence 2.0
 #
 
+from __future__ import unicode_literals
 import reclass.cli
 reclass.cli.main()
