@@ -81,7 +81,7 @@ def cli():
 
             data = groups
 
-        print output(data, options.output, options.pretty_print)
+        print(output(data, options.output, options.pretty_print))
 
     except ReclassException as e:
         e.exit_with_message(sys.stderr)

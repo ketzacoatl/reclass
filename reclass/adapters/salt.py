@@ -111,7 +111,7 @@ def cli():
                        classes_uri=options.classes_uri,
                        class_mappings=class_mappings)
 
-        print output(data, options.output, options.pretty_print)
+        print(output(data, options.output, options.pretty_print))
 
     except ReclassException as e:
         e.exit_with_message(sys.stderr)
